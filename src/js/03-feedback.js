@@ -11,7 +11,6 @@ fillFromLS();
 
 function onFormInput(e) {
   formData[e.target.name] = e.target.value;
-  console.log(formData);
   localStorage.setItem('feedback-form-state', JSON.stringify(formData));
 }
 
